@@ -1,0 +1,128 @@
+<div class="row registro mt-5 mb-5">
+    <div class="col-md-4 order-md-2 mb-4">
+        <h3 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-dark"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Información</font></font></span>
+          <span class="badge badge-warning badge-pill"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">!</font></font></span>
+        </h3>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nombre de usuario</font></font></h6>
+              <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Breve descripción</font></font></small>
+            </div>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Identificación</font></font></h6>
+              <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Breve descripción</font></font></small>
+            </div>            
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fecha de nacimiento</font></font></h6>
+              <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Breve descripción</font></font></small>
+            </div>            
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tratamiento de datos</font></font></h6>
+              <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Breve descripción</font></font></small>
+            </div>            
+          </li>
+        </ul>
+  
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Promo code">
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Redimir</font></font></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    <div class="col-md-8 order-md-1">
+        <h2 class="mb-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Crea tu cuenta</font></font></h2>
+        <form class="needs-validation" novalidate="">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nombre</font></font></label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Primer nombre valido es requerido.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apellido</font></font></label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Apellido valido es requerido.
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="address"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Identificación</font></font></label>
+                <input type="text" class="form-control" id="address" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Por favor ingrese su número de identificación.
+                </div>
+              </div>
+      
+              <div class="col-md-6 mb-3">
+                <label for="address2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dirección</font></font><span class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(opcional)</font></font></span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="year"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Año</font></font></label>
+                <input type="text" class="form-control" id="year" placeholder="0000" value="" required="">
+                <div class="invalid-feedback">
+                  Año valido es requerido.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="day"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mes</font></font></label>
+                <input type="text" class="form-control" id="day" placeholder="00" value="" required="">
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Día</font></font></label>
+                <input type="text" class="form-control" id="zip" placeholder="00" required="">
+                <div class="invalid-feedback">
+                  Dia de nacimiento es requerido.
+                </div>
+              </div>
+            </div>
+
+          <div class="mb-3">
+            <label for="username"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nombre de usuario</font></font></label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@</font></font></span>
+              </div>
+              <input type="text" class="form-control" id="username" placeholder="Nombre de usuario" required="">
+              <div class="invalid-feedback" style="width: 100%;">
+                Nombre de usuario es requerido.
+              </div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="email"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Correo electrónico </font></font><span class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*</font></font></span></label>
+            <input type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
+            <div class="invalid-feedback">
+              Please enter a valid email address for shipping updates.
+            </div>
+          </div>
+  
+          <hr class="mb-4">
+
+          <button class="btn btn-warning btn-lg btn-block" type="submit" title="Crear cuenta"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Crear cuenta</font></font></button>
+        </form>
+      </div>  
+</div>

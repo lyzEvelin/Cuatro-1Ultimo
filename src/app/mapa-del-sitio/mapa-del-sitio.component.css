@@ -1,0 +1,17 @@
+.ban {
+    border-radius: 15px;
+}
+
+h3 {
+    color: #DF1B1B;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul li a:hover {
+    background: #FFC107;
+    border-radius: 15px;
+}

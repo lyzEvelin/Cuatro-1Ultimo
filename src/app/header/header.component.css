@@ -1,0 +1,36 @@
+.header {
+    background-image: url(../../img/fondoHeader.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.head {
+    background-color: rgba(252, 252, 252, 0.2);
+    border-radius: 15px;
+    height: 230px;
+    width: 100%;
+}
+
+.head a {
+    padding-left: 450px;
+}
+
+.login {
+    background: #000000;
+    border-radius: 5px; 
+}
+
+.navbar {
+    border-radius: 15px;
+}
+
+ul li:hover {
+    background: yellow;
+    border-radius: 15px;
+}
+
+ul li a:hover {
+    color: #000000!important;
+}

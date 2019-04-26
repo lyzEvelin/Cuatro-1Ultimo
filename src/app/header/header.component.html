@@ -1,0 +1,54 @@
+<div class="login">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-0 justify-content-end align-items-center">
+          <a class="btn btn-sm btn-outline-secondary text-white ml-2 mt-2 mb-2" [routerLink]="['/registro']" title="Registrarse"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Registrarse</font></font></a>
+        </div>
+        <div class="col-4 text-center">
+          <a class="blog-header-logo text-dark" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <a class="btn btn-sm btn-outline-secondary text-white mr-2 mt-2 mb-2" [routerLink]="['/login']" title="Iniciar Sesión"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iniciar Sesión</font></font></a>
+        </div>
+      </div>
+</div>
+<div class="header bg-dark head">
+  <div class="head">
+    <a href=""><img src="../../assets/images/icons/logo1.png" width="200px" height="200px" alt="InfoMilenio" title="InfoMilenio"></a>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg text-white" style="background-color: #DF1B1B; color: #ffffff">
+    <a class="navbar-brand text-white" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link text-white" [routerLink]="['/inicio']" title="Inicio">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link text-white" [routerLink]="['/nosotros']" title="Nosotros">Nosotros</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link text-white" [routerLink]="['/planea-tu-viaje']" title="Planea tu viaje">Planea tu Viaje</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link text-white" [routerLink]="['/noticias']" title="Noticias">Noticias</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link text-white" [routerLink]="['/contacto']" title="Contactanos">Contactanos</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link text-white" [routerLink]="['/mapa-del-sitio']" title="Mapa del Sitio">Mapa del Sitio</a>
+        </li>  
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link text-white" [routerLink]="['/dashboard']" target="_blank" title="Dashboard">Dashboard</a>
+        </li>  
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn my-2 my-sm-0 bg-dark text-white" type="submit" title="Buscar">Buscar</button>
+      </form>
+    </div>
+</nav>
