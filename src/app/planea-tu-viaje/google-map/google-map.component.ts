@@ -33,14 +33,14 @@ export class GoogleMapComponent implements OnInit {
     $.getJSON('http://datosabiertos.bogota.gov.co/api/3/action/datastore_search?resource_id=d0775af7-1706-4404-8bea-387194287d73&limit=1000',  
      
       (records) => {
-        this.guardarDatos(/*records*/);
+        this.guardarDatos(records);
       var  mydata = JSON.parse(records);
       $.each(mydata, function (index, value){
-        console.log(value, records.name);
+        console.log(value, records.Name);
       })
     });
-    this.jsonDA2 = jsonDA;
-    console.log(this.jsonDA2);
+   // this.jsonDA2 = jsonDA;
+  //console.log(this.jsonDA2);
 
   }
 
@@ -67,7 +67,7 @@ export class GoogleMapComponent implements OnInit {
     });*/
     
     
-guardarDatos() {
+guardarDatos(data) {
 
   this.latLon.forEach(element => {
 
