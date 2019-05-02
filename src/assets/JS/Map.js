@@ -1,4 +1,4 @@
-var posBus = (function(){
+﻿var posBus = (function(){
     var posStart = 0;
     var pos = 0;
     var previosPos = 0;
@@ -7,7 +7,7 @@ var posBus = (function(){
     function changePos(newPos){
         //debugger;
         previosPos = pos;
-        pos = (newPos * increase) + (parseInt((increase/2)) - 40);
+        pos = (newPos * increase) + (parseInt((increase / 2)) - 40);
     }
     function setIncrease(newIncrease){
         increase = newIncrease;
@@ -317,3 +317,4 @@ function alternar_banner(){
     contador = contador % array_imagen.length;
     setTimeout("alternar_banner()",2000);
 }
+

@@ -1,0 +1,45 @@
+
+<h1> {{texto}}</h1>
+<button (click)="verDatos()">ver Datos</button>
+<div class="row">
+
+  <div class="col-md-6">
+    <agm-map [latitude]="lat" [zoom]="zoom" [longitude]="lng">
+     <agm-marker  [latitude]="lat" [longitude]="lng"></agm-marker></agm-map>
+
+  </div>
+  <div class="col-md-6">
+    
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Colombia
+      </button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="#">jajjaja</a>
+        <a class="dropdown-item" href="#">Dropdown link</a>
+      </div>
+    </div>
+    <div class="btn-group-vertical" data-toggle = "buttons">
+    <button type="button" class="btn btn-primary" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Caracas</button>
+    <button type="button" class="btn btn-secondary">Aut.Norte</button>
+    <button type="button" class="btn btn-success">Av.Suba</button>
+    <button type="button" class="btn btn-danger">Calle 80</button>
+    <button type="button" class="btn btn-warning">NQS Central</button>
+    <button type="button" class="btn btn-info">Avenida Américas</button>
+    <button type="button" class="btn btn-light">NQS Sur</button>
+    <button type="button" class="btn btn-dark">Caracas Sur (1)</button>
+    <button type="button" class="btn btn-warning">Caracas Sur (2)</button>
+    <button type="button" class="btn btn-info">Eje Ambiental</button>
+    <button type="button" class="btn btn-light">Av. El Dorado</button>
+    <button type="button" class="btn btn-dark">Carr. Decima</button>
+    <button type="button" class="btn btn-danger">Carr. Septima</button>
+     </div>
+  </div>
+  <div class="col-md-6">
+      
+  
+    </div>
+</div>
+
+
+

@@ -1,0 +1,1263 @@
+{
+    "help": "http://datosabiertos.bogota.gov.co/api/3/action/help_show?name=datastore_search",
+    "result": {
+      "include_total": true,
+      "resource_id": "d0775af7-1706-4404-8bea-387194287d73",
+      "fields": [
+        {
+          "type": "int",
+          "id": "_id"
+        },
+        {
+          "info": {
+            "notes": "Identificador",
+            "type_override": "numeric",
+            "label": "ID"
+          },
+          "type": "text",
+          "id": "Id"
+        },
+        {
+          "info": {
+            "notes": "Nombre de la estaci\u00f3n.",
+            "type_override": "text",
+            "label": "Nombre"
+          },
+          "type": "text",
+          "id": "Name"
+        },
+        {
+          "info": {
+            "notes": "Nombre del corredor troncal donde se encuentra ubicada la estaci\u00f3n.",
+            "type_override": "text",
+            "label": "Corredor"
+          },
+          "type": "text",
+          "id": "Corredor"
+        },
+        {
+          "info": {
+            "notes": "Longitud de coordenada geogr\u00e1fica de estaci\u00f3n",
+            "type_override": "numeric",
+            "label": "Longitud"
+          },
+          "type": "text",
+          "id": "Longitud"
+        },
+        {
+          "info": {
+            "notes": "Latitud de coordenada geogr\u00e1fica de estaci\u00f3n",
+            "type_override": "numeric",
+            "label": "Latitud "
+          },
+          "type": "text",
+          "id": "Latitud"
+        }
+      ],
+      "records_format": "objects",
+      "q": "",
+      "records": [
+        {
+          "_id": 1,
+          "Id": "1",
+          "Name": "LA DESPENSA",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1876524311*",
+          "Latitud": "4,594799604705*"
+        },
+        {
+          "_id": 2,
+          "Id": "2",
+          "Name": "BOSA",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1815740859*",
+          "Latitud": "4,596794911120*"
+        },
+        {
+          "_id": 3,
+          "Id": "3",
+          "Name": "LEON XIII",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1936665202*",
+          "Latitud": "4,591904305313*"
+        },
+        {
+          "_id": 4,
+          "Id": "4",
+          "Name": "TERRERO-HOSPITAL CV",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1994982118*",
+          "Latitud": "4,588953794143*"
+        },
+        {
+          "_id": 5,
+          "Id": "5",
+          "Name": "SAN MATEO",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,2057194234*",
+          "Latitud": "4,585803019904*"
+        },
+        {
+          "_id": 6,
+          "Id": "6",
+          "Name": "Quirigua",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,1083119018*",
+          "Latitud": "4,706417091609*"
+        },
+        {
+          "_id": 7,
+          "Id": "7",
+          "Name": "Carrera 90",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,1042029881*",
+          "Latitud": "4,704464371991*"
+        },
+        {
+          "_id": 8,
+          "Id": "8",
+          "Name": "Portal de la 80",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,1104134403*",
+          "Latitud": "4,709575187756*"
+        },
+        {
+          "_id": 9,
+          "Id": "9",
+          "Name": "Minuto de Dios",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0911294835*",
+          "Latitud": "4,696397658690*"
+        },
+        {
+          "_id": 10,
+          "Id": "10",
+          "Name": "Avenida Boyacá",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0874978072*",
+          "Latitud": "4,694248399802*"
+        },
+        {
+          "_id": 11,
+          "Id": "11",
+          "Name": "Avenida Ciudad de Cali",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,1006904737*",
+          "Latitud": "4,702740500760*"
+        },
+        {
+          "_id": 12,
+          "Id": "12",
+          "Name": "Granja - Carrera 77",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0956868512*",
+          "Latitud": "4,698899281867*"
+        },
+        {
+          "_id": 13,
+          "Id": "13",
+          "Name": "Carrera 53",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0777701452*",
+          "Latitud": "4,682250542274*"
+        },
+        {
+          "_id": 14,
+          "Id": "14",
+          "Name": "Av Chile",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0745979701*",
+          "Latitud": "4,666242707594*"
+        },
+        {
+          "_id": 15,
+          "Id": "15",
+          "Name": "NQS - Calle 75",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0707301629*",
+          "Latitud": "4,670850737816*"
+        },
+        {
+          "_id": 16,
+          "Id": "16",
+          "Name": "Carrera 47",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0740496822*",
+          "Latitud": "4,678231193890*"
+        },
+        {
+          "_id": 17,
+          "Id": "17",
+          "Name": "Escuela Militar",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0689900662*",
+          "Latitud": "4,674968220092*"
+        },
+        {
+          "_id": 18,
+          "Id": "18",
+          "Name": "Calle 76",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0612931977*",
+          "Latitud": "4,662889042502*"
+        },
+        {
+          "_id": 19,
+          "Id": "19",
+          "Name": "Polo",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0645013019*",
+          "Latitud": "4,670328946590*"
+        },
+        {
+          "_id": 20,
+          "Id": "20",
+          "Name": "Héroes",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0604092141*",
+          "Latitud": "4,667760105196*"
+        },
+        {
+          "_id": 21,
+          "Id": "21",
+          "Name": "San Martín",
+          "Corredor": "Suba",
+          "Longitud": "-74,0668241841*",
+          "Latitud": "4,676935169308*"
+        },
+        {
+          "_id": 22,
+          "Id": "22",
+          "Name": "Rionegro",
+          "Corredor": "Suba",
+          "Longitud": "-74,0643074669*",
+          "Latitud": "4,681116447505*"
+        },
+        {
+          "_id": 23,
+          "Id": "23",
+          "Name": "La Castellana",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0646892246*",
+          "Latitud": "4,675399133145*"
+        },
+        {
+          "_id": 24,
+          "Id": "24",
+          "Name": "Calle 85",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0596440067*",
+          "Latitud": "4,672291461867*"
+        },
+        {
+          "_id": 25,
+          "Id": "25",
+          "Name": "Virrey",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0588166152*",
+          "Latitud": "4,677185687"
+        },
+        {
+          "_id": 26,
+          "Id": "26",
+          "Name": "Las Ferias",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0843536820*",
+          "Latitud": "4,690529500342*"
+        },
+        {
+          "_id": 27,
+          "Id": "27",
+          "Name": "Avenida 68",
+          "Corredor": "Calle 80",
+          "Longitud": "-74,0802145656*",
+          "Latitud": "4,685353655341*"
+        },
+        {
+          "_id": 28,
+          "Id": "28",
+          "Name": "Clinica Shaio",
+          "Corredor": "Suba",
+          "Longitud": "-74,0700386625*",
+          "Latitud": "4,699822802228*"
+        },
+        {
+          "_id": 29,
+          "Id": "29",
+          "Name": "Humedal Córdoba",
+          "Corredor": "Suba",
+          "Longitud": "-74,0710561394*",
+          "Latitud": "4,706092142"
+        },
+        {
+          "_id": 30,
+          "Id": "30",
+          "Name": "Niza - Calle 127",
+          "Corredor": "Suba",
+          "Longitud": "-74,0723172873*",
+          "Latitud": "4,711977791360*"
+        },
+        {
+          "_id": 31,
+          "Id": "31",
+          "Name": "Suba - Calle 100",
+          "Corredor": "Suba",
+          "Longitud": "-74,0652907007*",
+          "Latitud": "4,689338929451*"
+        },
+        {
+          "_id": 32,
+          "Id": "32",
+          "Name": "Suba - Calle 95",
+          "Corredor": "Suba",
+          "Longitud": "-74,0629262278*",
+          "Latitud": "4,684045905748*"
+        },
+        {
+          "_id": 33,
+          "Id": "33",
+          "Name": "Puentelargo",
+          "Corredor": "Suba",
+          "Longitud": "-74,0668806514*",
+          "Latitud": "4,692774327823*"
+        },
+        {
+          "_id": 34,
+          "Id": "34",
+          "Name": "Calle 100",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0576907410*",
+          "Latitud": "4,683997184024*"
+        },
+        {
+          "_id": 35,
+          "Id": "35",
+          "Name": "Calle 106",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0561443931*",
+          "Latitud": "4,693168779214*"
+        },
+        {
+          "_id": 36,
+          "Id": "36",
+          "Name": "Pepe Sierra",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0551929608*",
+          "Latitud": "4,698792581948*"
+        },
+        {
+          "_id": 37,
+          "Id": "37",
+          "Name": "Calle 127",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0541134421*",
+          "Latitud": "4,705337084177*"
+        },
+        {
+          "_id": 38,
+          "Id": "38",
+          "Name": "Prado Veraniego",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0526974463*",
+          "Latitud": "4,713848928581*"
+        },
+        {
+          "_id": 39,
+          "Id": "39",
+          "Name": "Portal de Suba",
+          "Corredor": "Suba",
+          "Longitud": "-74,0943098394*",
+          "Latitud": "4,746745581786*"
+        },
+        {
+          "_id": 40,
+          "Id": "40",
+          "Name": "Suba - Tv. 91",
+          "Corredor": "Suba",
+          "Longitud": "-74,0851978203*",
+          "Latitud": "4,737865754480*"
+        },
+        {
+          "_id": 41,
+          "Id": "41",
+          "Name": "La Campiña",
+          "Corredor": "Suba",
+          "Longitud": "-74,0903293524*",
+          "Latitud": "4,741825300387*"
+        },
+        {
+          "_id": 42,
+          "Id": "42",
+          "Name": "Suba - Av. Boyacá",
+          "Corredor": "Suba",
+          "Longitud": "-74,0747377276*",
+          "Latitud": "4,721396541768*"
+        },
+        {
+          "_id": 43,
+          "Id": "43",
+          "Name": "Gratamira",
+          "Corredor": "Suba",
+          "Longitud": "-74,0747599505*",
+          "Latitud": "4,725928054976*"
+        },
+        {
+          "_id": 44,
+          "Id": "44",
+          "Name": "21 Angeles",
+          "Corredor": "Suba",
+          "Longitud": "-74,0804130324*",
+          "Latitud": "4,735037729332*"
+        },
+        {
+          "_id": 45,
+          "Id": "45",
+          "Name": "Alcalá",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,05152759",
+          "Latitud": "4,720849948652*"
+        },
+        {
+          "_id": 46,
+          "Id": "46",
+          "Name": "Calle 142",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0505034908*",
+          "Latitud": "4,726878586951*"
+        },
+        {
+          "_id": 47,
+          "Id": "47",
+          "Name": "Calle 146",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0496232520*",
+          "Latitud": "4,732138516656*"
+        },
+        {
+          "_id": 48,
+          "Id": "48",
+          "Name": "Mazuren",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0491037564*",
+          "Latitud": "4,735240802402*"
+        },
+        {
+          "_id": 49,
+          "Id": "49",
+          "Name": "Cardio Infantil",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0479609988*",
+          "Latitud": "4,742024769917*"
+        },
+        {
+          "_id": 50,
+          "Id": "50",
+          "Name": "Toberín",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0471574333*",
+          "Latitud": "4,746938387813*"
+        },
+        {
+          "_id": 51,
+          "Id": "51",
+          "Name": "Portal Norte",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0460823216*",
+          "Latitud": "4,754512058325*"
+        },
+        {
+          "_id": 52,
+          "Id": "52",
+          "Name": "CAN",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,0984126821*",
+          "Latitud": "4,645716133235*"
+        },
+        {
+          "_id": 53,
+          "Id": "53",
+          "Name": "Gobernación",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,0958880390*",
+          "Latitud": "4,641739967"
+        },
+        {
+          "_id": 54,
+          "Id": "54",
+          "Name": "Quinta Paredes",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,0925263730*",
+          "Latitud": "4,636561552376*"
+        },
+        {
+          "_id": 55,
+          "Id": "55",
+          "Name": "Corferias",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,0891924758*",
+          "Latitud": "4,634066828799*"
+        },
+        {
+          "_id": 56,
+          "Id": "56",
+          "Name": "Ciudad Universitaria",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,0836794813*",
+          "Latitud": "4,631062129427*"
+        },
+        {
+          "_id": 57,
+          "Id": "57",
+          "Name": "Av. El Dorado",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0797757559*",
+          "Latitud": "4,631599929592*"
+        },
+        {
+          "_id": 58,
+          "Id": "58",
+          "Name": "Profamilia",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0697610953*",
+          "Latitud": "4,621479930131*"
+        },
+        {
+          "_id": 59,
+          "Id": "59",
+          "Name": "Universidad Nacional",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0793350604*",
+          "Latitud": "4,636972810415*"
+        },
+        {
+          "_id": 60,
+          "Id": "60",
+          "Name": "Campin",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0787173077*",
+          "Latitud": "4,645291463712*"
+        },
+        {
+          "_id": 61,
+          "Id": "61",
+          "Name": "Avenida 39",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0687199373*",
+          "Latitud": "4,626757312140*"
+        },
+        {
+          "_id": 62,
+          "Id": "62",
+          "Name": "Calle 45",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0679033082*",
+          "Latitud": "4,631288565249*"
+        },
+        {
+          "_id": 63,
+          "Id": "63",
+          "Name": "Marly",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0668001649*",
+          "Latitud": "4,637419923543*"
+        },
+        {
+          "_id": 64,
+          "Id": "64",
+          "Name": "Calle 57",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0658502681*",
+          "Latitud": "4,642864927387*"
+        },
+        {
+          "_id": 65,
+          "Id": "65",
+          "Name": "Calle 63",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0648722423*",
+          "Latitud": "4,648359750646*"
+        },
+        {
+          "_id": 66,
+          "Id": "66",
+          "Name": "Salitre el Greco",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,1011226572*",
+          "Latitud": "4,649985173107*"
+        },
+        {
+          "_id": 67,
+          "Id": "67",
+          "Name": "El Tiempo - Maloka",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,1049792616*",
+          "Latitud": "4,655965547510*"
+        },
+        {
+          "_id": 68,
+          "Id": "68",
+          "Name": "Avenida Rojas",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,1089073172*",
+          "Latitud": "4,662151394229*"
+        },
+        {
+          "_id": 69,
+          "Id": "69",
+          "Name": "Modelia",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,1165506007*",
+          "Latitud": "4,674112896226*"
+        },
+        {
+          "_id": 70,
+          "Id": "70",
+          "Name": "Normandia",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,1135436293*",
+          "Latitud": "4,669418924517*"
+        },
+        {
+          "_id": 71,
+          "Id": "71",
+          "Name": "Movistar Arena",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0782057199*",
+          "Latitud": "4,651881432445*"
+        },
+        {
+          "_id": 72,
+          "Id": "72",
+          "Name": "Simon Bolívar",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0775501706*",
+          "Latitud": "4,657850146915*"
+        },
+        {
+          "_id": 73,
+          "Id": "73",
+          "Name": "Flores",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0630506573*",
+          "Latitud": "4,654875158660*"
+        },
+        {
+          "_id": 74,
+          "Id": "74",
+          "Name": "Calle 72",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0620795634*",
+          "Latitud": "4,658233808589*"
+        },
+        {
+          "_id": 75,
+          "Id": "75",
+          "Name": "Portal El Dorado",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,1206267686*",
+          "Latitud": "4,680426002886*"
+        },
+        {
+          "_id": 76,
+          "Id": "76",
+          "Name": "Portal de las Américas",
+          "Corredor": "Américas",
+          "Longitud": "-74,1729418982*",
+          "Latitud": "4,629053999242*"
+        },
+        {
+          "_id": 77,
+          "Id": "77",
+          "Name": "Patio Bonito",
+          "Corredor": "Américas",
+          "Longitud": "-74,1646447819*",
+          "Latitud": "4,633109510447*"
+        },
+        {
+          "_id": 78,
+          "Id": "78",
+          "Name": "Biblioteca Tintal",
+          "Corredor": "Américas",
+          "Longitud": "-74,1593703967*",
+          "Latitud": "4,637797889658*"
+        },
+        {
+          "_id": 79,
+          "Id": "79",
+          "Name": "Tv 86",
+          "Corredor": "Américas",
+          "Longitud": "-74,1529530778*",
+          "Latitud": "4,635053035228*"
+        },
+        {
+          "_id": 80,
+          "Id": "80",
+          "Name": "Banderas",
+          "Corredor": "Américas",
+          "Longitud": "-74,1455462795*",
+          "Latitud": "4,631255970509*"
+        },
+        {
+          "_id": 81,
+          "Id": "81",
+          "Name": "Mandalay",
+          "Corredor": "Américas",
+          "Longitud": "-74,1407604141*",
+          "Latitud": "4,630726683839*"
+        },
+        {
+          "_id": 82,
+          "Id": "82",
+          "Name": "Mundo Aventura",
+          "Corredor": "Américas",
+          "Longitud": "-74,1352242115*",
+          "Latitud": "4,630139609287*"
+        },
+        {
+          "_id": 83,
+          "Id": "83",
+          "Name": "Marsella",
+          "Corredor": "Américas",
+          "Longitud": "-74,12860265",
+          "Latitud": "4,629488206000*"
+        },
+        {
+          "_id": 84,
+          "Id": "84",
+          "Name": "Pradera",
+          "Corredor": "Américas",
+          "Longitud": "-74,1196845390*",
+          "Latitud": "4,628608876536*"
+        },
+        {
+          "_id": 85,
+          "Id": "85",
+          "Name": "Santa Isabel",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1021872361*",
+          "Latitud": "4,601992373986*"
+        },
+        {
+          "_id": 86,
+          "Id": "86",
+          "Name": "Comuneros",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,0999187352*",
+          "Latitud": "4,604096572770*"
+        },
+        {
+          "_id": 87,
+          "Id": "87",
+          "Name": "CDS - Cr 32",
+          "Corredor": "Américas",
+          "Longitud": "-74,0939675660*",
+          "Latitud": "4,616082602715*"
+        },
+        {
+          "_id": 88,
+          "Id": "88",
+          "Name": "Ricaurte",
+          "Corredor": "Américas",
+          "Longitud": "-74,0902920548*",
+          "Latitud": "4,612809296957*"
+        },
+        {
+          "_id": 89,
+          "Id": "89",
+          "Name": "Ricaurte",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0936150626*",
+          "Latitud": "4,611967305582*"
+        },
+        {
+          "_id": 90,
+          "Id": "90",
+          "Name": "San Facón Cr 22",
+          "Corredor": "Américas",
+          "Longitud": "-74,0866644421*",
+          "Latitud": "4,609581369234*"
+        },
+        {
+          "_id": 91,
+          "Id": "91",
+          "Name": "Américas - Cr 53A",
+          "Corredor": "Américas",
+          "Longitud": "-74,1102595200*",
+          "Latitud": "4,627689730672*"
+        },
+        {
+          "_id": 92,
+          "Id": "92",
+          "Name": "Puente Aranda",
+          "Corredor": "Américas",
+          "Longitud": "-74,1042871712*",
+          "Latitud": "4,625297047340*"
+        },
+        {
+          "_id": 93,
+          "Id": "93",
+          "Name": "Zona Industrial",
+          "Corredor": "Américas",
+          "Longitud": "-74,0987954628*",
+          "Latitud": "4,620362650981*"
+        },
+        {
+          "_id": 94,
+          "Id": "94",
+          "Name": "Cr 43",
+          "Corredor": "Américas",
+          "Longitud": "-74,1014803959*",
+          "Latitud": "4,622753544"
+        },
+        {
+          "_id": 95,
+          "Id": "95",
+          "Name": "Paloquemao",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0890591801*",
+          "Latitud": "4,617485612444*"
+        },
+        {
+          "_id": 96,
+          "Id": "96",
+          "Name": "Tercer Milenio",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0838463222*",
+          "Latitud": "4,598063996961*"
+        },
+        {
+          "_id": 97,
+          "Id": "97",
+          "Name": "De La Sabana",
+          "Corredor": "Américas",
+          "Longitud": "-74,0819392847*",
+          "Latitud": "4,605405101635*"
+        },
+        {
+          "_id": 98,
+          "Id": "98",
+          "Name": "Avenida Jiménez",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0804513955*",
+          "Latitud": "4,602780856728*"
+        },
+        {
+          "_id": 99,
+          "Id": "99",
+          "Name": "Av Jiménez",
+          "Corredor": "Eje Ambiental",
+          "Longitud": "-74,0790075086*",
+          "Latitud": "4,602912279679*"
+        },
+        {
+          "_id": 100,
+          "Id": "100",
+          "Name": "Museo del Oro",
+          "Corredor": "Eje Ambiental",
+          "Longitud": "-74,0729812782*",
+          "Latitud": "4,601125624022*"
+        },
+        {
+          "_id": 101,
+          "Id": "101",
+          "Name": "Calle 19",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0768242819*",
+          "Latitud": "4,607854443519*"
+        },
+        {
+          "_id": 102,
+          "Id": "102",
+          "Name": "Las Nieves",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0743422072*",
+          "Latitud": "4,606005006693*"
+        },
+        {
+          "_id": 103,
+          "Id": "103",
+          "Name": "Calle 22",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0747189264*",
+          "Latitud": "4,611588453449*"
+        },
+        {
+          "_id": 104,
+          "Id": "104",
+          "Name": "San Diego",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0717707797*",
+          "Latitud": "4,610333566345*"
+        },
+        {
+          "_id": 105,
+          "Id": "105",
+          "Name": "Museo Nacional",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0692641972*",
+          "Latitud": "4,615095914906*"
+        },
+        {
+          "_id": 106,
+          "Id": "106",
+          "Name": "Aguas",
+          "Corredor": "Eje Ambiental",
+          "Longitud": "-74,0684164932*",
+          "Latitud": "4,602549831675*"
+        },
+        {
+          "_id": 107,
+          "Id": "107",
+          "Name": "CAD",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0841859019*",
+          "Latitud": "4,623363196252*"
+        },
+        {
+          "_id": 108,
+          "Id": "108",
+          "Name": "Concejo Bogotá",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,0809368176*",
+          "Latitud": "4,626887597314*"
+        },
+        {
+          "_id": 109,
+          "Id": "109",
+          "Name": "Parque Renacimiento",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,0774275546*",
+          "Latitud": "4,621874479473*"
+        },
+        {
+          "_id": 110,
+          "Id": "110",
+          "Name": "Portal Tunal",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1396019073*",
+          "Latitud": "4,570947131846*"
+        },
+        {
+          "_id": 111,
+          "Id": "111",
+          "Name": "Socorro",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1252967576*",
+          "Latitud": "4,564120037244*"
+        },
+        {
+          "_id": 112,
+          "Id": "112",
+          "Name": "Molinos",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1217249658*",
+          "Latitud": "4,556809607226*"
+        },
+        {
+          "_id": 113,
+          "Id": "113",
+          "Name": "Consuelo",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,12404676",
+          "Latitud": "4,560521048557*"
+        },
+        {
+          "_id": 114,
+          "Id": "114",
+          "Name": "Parque",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1351748375*",
+          "Latitud": "4,568378593982*"
+        },
+        {
+          "_id": 115,
+          "Id": "115",
+          "Name": "Biblioteca",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1301163919*",
+          "Latitud": "4,57036031"
+        },
+        {
+          "_id": 116,
+          "Id": "116",
+          "Name": "Santa Lucía",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1246928360*",
+          "Latitud": "4,570905386672*"
+        },
+        {
+          "_id": 117,
+          "Id": "117",
+          "Name": "Calle 40 Sur",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1200657805*",
+          "Latitud": "4,575762198107*"
+        },
+        {
+          "_id": 118,
+          "Id": "118",
+          "Name": "Quiroga",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1149484860*",
+          "Latitud": "4,576661169743*"
+        },
+        {
+          "_id": 119,
+          "Id": "119",
+          "Name": "Olaya",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1070008906*",
+          "Latitud": "4,57902874"
+        },
+        {
+          "_id": 120,
+          "Id": "120",
+          "Name": "Restrepo",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1014573348*",
+          "Latitud": "4,581784792339*"
+        },
+        {
+          "_id": 121,
+          "Id": "121",
+          "Name": "Portal 20 de Julio",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0972218599*",
+          "Latitud": "4,565472864826*"
+        },
+        {
+          "_id": 122,
+          "Id": "122",
+          "Name": "Country Sur",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,09859397",
+          "Latitud": "4,571352253601*"
+        },
+        {
+          "_id": 123,
+          "Id": "123",
+          "Name": "Avenida 1 de Mayo",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0936380688*",
+          "Latitud": "4,576954092434*"
+        },
+        {
+          "_id": 124,
+          "Id": "124",
+          "Name": "Fucha",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,0987904088*",
+          "Latitud": "4,583306473843*"
+        },
+        {
+          "_id": 125,
+          "Id": "125",
+          "Name": "Ciudad Jardín",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0900226496*",
+          "Latitud": "4,581945560190*"
+        },
+        {
+          "_id": 126,
+          "Id": "126",
+          "Name": "Portal del Sur",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1693512824*",
+          "Latitud": "4,596727466418*"
+        },
+        {
+          "_id": 127,
+          "Id": "127",
+          "Name": "Perdomo",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1638217275*",
+          "Latitud": "4,595741047911*"
+        },
+        {
+          "_id": 128,
+          "Id": "128",
+          "Name": "Madelena",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1560128895*",
+          "Latitud": "4,596314787725*"
+        },
+        {
+          "_id": 129,
+          "Id": "129",
+          "Name": "Sevillana",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1484994584*",
+          "Latitud": "4,595180598661*"
+        },
+        {
+          "_id": 130,
+          "Id": "130",
+          "Name": "Venecia",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1416317900*",
+          "Latitud": "4,595545533404*"
+        },
+        {
+          "_id": 131,
+          "Id": "131",
+          "Name": "Alquería",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1352654536*",
+          "Latitud": "4,594415181683*"
+        },
+        {
+          "_id": 132,
+          "Id": "132",
+          "Name": "General Santander",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1282965186*",
+          "Latitud": "4,593475538916*"
+        },
+        {
+          "_id": 133,
+          "Id": "133",
+          "Name": "NQS - Calle 38A Sur",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1249246436*",
+          "Latitud": "4,593655680641*"
+        },
+        {
+          "_id": 134,
+          "Id": "134",
+          "Name": "NQS - Calle 30 Sur",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1170483034*",
+          "Latitud": "4,594967654000*"
+        },
+        {
+          "_id": 135,
+          "Id": "135",
+          "Name": "Sena",
+          "Corredor": "NQS Sur",
+          "Longitud": "-74,1097241982*",
+          "Latitud": "4,597796357168*"
+        },
+        {
+          "_id": 136,
+          "Id": "136",
+          "Name": "Nariño",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,0944172815*",
+          "Latitud": "4,585766507117*"
+        },
+        {
+          "_id": 137,
+          "Id": "137",
+          "Name": "Hortúa",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,0903228037*",
+          "Latitud": "4,590691429222*"
+        },
+        {
+          "_id": 138,
+          "Id": "138",
+          "Name": "Policarpa",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0869672311*",
+          "Latitud": "4,586156621118*"
+        },
+        {
+          "_id": 139,
+          "Id": "139",
+          "Name": "Hospital",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,0859404590*",
+          "Latitud": "4,595384055"
+        },
+        {
+          "_id": 140,
+          "Id": "140",
+          "Name": "Hospitales",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0842563564*",
+          "Latitud": "4,590260778593*"
+        },
+        {
+          "_id": 141,
+          "Id": "141",
+          "Name": "Portal Usme",
+          "Corredor": "Caracas Sur",
+          "Longitud": "-74,1195083963*",
+          "Latitud": "4,531456955653*"
+        },
+        {
+          "_id": 142,
+          "Id": "142",
+          "Name": "Bicentenario",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0821148491*",
+          "Latitud": "4,593585364233*"
+        },
+        {
+          "_id": 143,
+          "Id": "143",
+          "Name": "San Victorino",
+          "Corredor": "Carrera 10",
+          "Longitud": "-74,0773505614*",
+          "Latitud": "4,601037592826*"
+        },
+        {
+          "_id": 144,
+          "Id": "144",
+          "Name": "Universidades",
+          "Corredor": "Calle 26",
+          "Longitud": "-74,0668927868*",
+          "Latitud": "4,605380739692*"
+        },
+        {
+          "_id": 145,
+          "Id": "145",
+          "Name": "Guatoque-Veraguas",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0947031696*",
+          "Latitud": "4,603943867427*"
+        },
+        {
+          "_id": 146,
+          "Id": "146",
+          "Name": "Tygua-San José",
+          "Corredor": "NQS Central",
+          "Longitud": "-74,0887184691*",
+          "Latitud": "4,599667009977*"
+        },
+        {
+          "_id": 147,
+          "Id": "147",
+          "Name": "Terminal",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0435843747*",
+          "Latitud": "4,768742645222*"
+        },
+        {
+          "_id": 148,
+          "Id": "148",
+          "Name": "Calle 187",
+          "Corredor": "Autonorte",
+          "Longitud": "-74,0443216655*",
+          "Latitud": "4,764311898137*"
+        },
+        {
+          "_id": 149,
+          "Id": "149",
+          "Name": "Calle 26",
+          "Corredor": "Caracas",
+          "Longitud": "-74,0721685540*",
+          "Latitud": "4,616659658788*"
+        }
+      ],
+      "limit": 1000,
+      "filters": {},
+      "offset": 0,
+      "_links": {
+        "start": "/api/3/action/datastore_search",
+        "next": "/api/3/action/datastore_search?offset=1000"
+      },
+      "total": 149
+    },
+    "success": true
+  }
