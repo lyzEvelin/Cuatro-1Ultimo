@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { DatosAbiertosService } from '../../services/datos-abiertos.service';
+import { RutasService } from '../../services/rutas.service';
+import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 //import { DatosAbiertosService } from '../../services/estaciones.service';
 declare var lat: any;
 declare var $: any;
@@ -26,7 +29,7 @@ export class GoogleMapComponent implements OnInit {
    rutaImages: any[] = [];
 
   
-  constructor(private _Estaciones: DatosAbiertosService) {
+  constructor(private translate: TranslateService, public router: Router, private _DatosAbiertosService: DatosAbiertosService , private _RutasService: RutasService) {
     //this .consultar();
     $.getJSON('http://datosabiertos.bogota.gov.co/api/3/action/datastore_search?resource_id=d0775af7-1706-4404-8bea-387194287d73&limit=1000', function(data) {
       $.each(data.result.records, function(i, item) {
@@ -42,13 +45,13 @@ export class GoogleMapComponent implements OnInit {
     });
     this.jsonDA2 = jsonDA;
     console.log(this.jsonDA2);
-    /*
+    
     this._RutasService.getJSONrutas().subscribe(data => {
       for (let i = 0; i <= data.length - 1; i++) {
           this.arrayRutas2.push((data[i]));
       }
   
-  });*/
+  });
   
   console.log(this.arrayRutas2);
     
@@ -57,8 +60,8 @@ export class GoogleMapComponent implements OnInit {
 
   ngOnInit() {
     
-    this.Troncal = this._TroncalesService.getTroncales();
-    this.latLon = this._TroncalesService.getLatLon();
+    this.Troncal = this._DatosAbiertosService.getTroncales();
+    this.latLon = this._DatosAbiertosService.getLatLon();
     console.log(this.latLon);
     this.getBuscarImagen();
 
@@ -145,7 +148,7 @@ buscarImagen(id_ruta) {
 }
 
 getBuscarImagen() {
-  this._TroncalesService.buscarImagen().subscribe(data => {
+  this._DatosAbiertosService.buscarImagen().subscribe(data => {
     for (let i = 0; i <= data.length - 1; i++) {
       this.rutaImages.push((data[i])) ; }
       });
