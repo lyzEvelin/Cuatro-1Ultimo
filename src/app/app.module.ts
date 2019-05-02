@@ -17,7 +17,6 @@ import { AppComponent } from './app.component';
 import { AgmCoreModule } from '@agm/core';
 import { Pipe, PipeTransform }from '@angular/core';
 import { GoogleMapComponent } from './planea-tu-viaje/google-map/google-map.component';
-import { HomesidebarComponent } from './homesidebar/homesidebar.component';
 //import { DecoratorFactory } from '@Pipe/@Directive/@Component';
 
 
@@ -49,7 +48,6 @@ const routes: Routes = [
     MapaDelSitioComponent,
     DashboardComponent,
     GoogleMapComponent,
-    HomesidebarComponent,
     //Injectable,
     // AppRoutingModule,
     //Pipe, 

@@ -106,9 +106,7 @@ export class DatosAbiertosService {
       return this.http.get('./assets/json/imagenesjson.json');
     
     }
-    getRutas(){
-      return this.rutas;
-      }
+   
 
 }
 
