@@ -22,8 +22,8 @@ export class DatosAbiertosService {
 
   private TroncalBoton: any[] = [];
   private latLonMapa: any[] = [];
-
-  constructor(private http: HttpClient) {
+/*
+  constructor() {
 
     $.getJSON('http://datosabiertos.bogota.gov.co/api/3/action/datastore_search?resource_id=d0775af7-1706-4404-8bea-387194287d73&limit=1000', function(data) {
 
@@ -64,20 +64,23 @@ export class DatosAbiertosService {
     //  console.log(estacionesTroncales)
     console.log(jsonDA);
   }
-  /* *********************************** */
+
   getjaisonDA() {
     return jsonDA;
   }
-/* ------------------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------------------
+ */
     getTroncales() {
 
       return this.TroncalBoton = troncalesFiltradasColor;
 
     }
+    
 
     getLatLon() {
       return this.latLonMapa = latLon;
     }
+    /*
     getEstacion(){
       return estaciones;
     }
@@ -110,5 +113,5 @@ export class DatosAbiertosService {
 
 }
 
-
-
+*/
+}

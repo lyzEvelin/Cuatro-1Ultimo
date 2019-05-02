@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+//import { Injectable } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { DatosAbiertosService } from '../../services/datos-abiertos.service';
 import { Router } from '@angular/router';
@@ -30,17 +30,14 @@ export class GoogleMapComponent implements OnInit {
   
   constructor(private _DatosAbiertosService: DatosAbiertosService) {
     //this .consultar();
-    $.getJSON('http://datosabiertos.bogota.gov.co/api/3/action/datastore_search?resource_id=d0775af7-1706-4404-8bea-387194287d73&limit=1000', function(data) {
-      $.each(data.result.records, function(i, item) {
-  
-        jsonDA.push({
-  
-          Estacion: item.Name,
-          Troncal: item.Corredor,
-          Codigo: item.Id,
-          LatLon: { Lat: item.Latitud, Lon: item.Longitud },
-        });
-     });
+    $.getJSON('http://datosabiertos.bogota.gov.co/api/3/action/datastore_search?resource_id=d0775af7-1706-4404-8bea-387194287d73&limit=1000',  
+     
+      (records) => {
+        this.guardarDatos(/*records*/);
+      var  mydata = JSON.parse(records);
+      $.each(mydata, function (index, value){
+        console.log(value, records.name);
+      })
     });
     this.jsonDA2 = jsonDA;
     console.log(this.jsonDA2);
@@ -53,12 +50,7 @@ export class GoogleMapComponent implements OnInit {
     this.latLon = this._DatosAbiertosService.getLatLon();
     console.log(this.latLon);
   }
-    /*(records) => {
-      this.guardarDatos(records);
-    var  mydata = JSON.parse(records);
-    $.each(mydata, function (index, value){
-      console.log(value, records.name);
-    })*/
+    
     //for(var i=0; i<150; i++)
     //{
       //console.log(records.result.records[i]);
@@ -75,7 +67,7 @@ export class GoogleMapComponent implements OnInit {
     });*/
     
     
-buscar() {
+guardarDatos() {
 
   this.latLon.forEach(element => {
 
@@ -86,13 +78,13 @@ buscar() {
  });
 
 }
-
+/*
 comprobar(vagon: string, Estacion: string) {
   if (vagon.indexOf(Estacion)) {
     return true;
   }
   return false;
-}
+}*/
 resetMap(lati: number , long: number, zoom2: number) {
 
   console.log(lati + ' lat ' + long + ' long ' + zoom2 + ' zoom');
@@ -101,6 +93,7 @@ resetMap(lati: number , long: number, zoom2: number) {
   this.zoom = zoom2;
 }
 
+/*
 buscarImagen(id_ruta) {
     id_ruta = id_ruta.toString();
     console.log(this.rutaImages);
@@ -131,7 +124,7 @@ hola() {
   alert('hola');
 }
   }
-
+*/
 /*
  guardarDatos(data){
   this.datos=data;
@@ -171,4 +164,4 @@ hola() {
   
   
 
-
+}
